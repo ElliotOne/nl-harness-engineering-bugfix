@@ -1,0 +1,6 @@
+[
+  {
+    "op": "read",
+    "path": "../prompt.txt"
+  }
+]

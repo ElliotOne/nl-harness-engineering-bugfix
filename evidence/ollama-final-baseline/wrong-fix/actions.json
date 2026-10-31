@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "shipping.py",
+    "old": "> 5000",
+    "new": ">= 4999"
+  },
+  {
+    "op": "test"
+  },
+  {
+    "op": "finish"
+  }
+]

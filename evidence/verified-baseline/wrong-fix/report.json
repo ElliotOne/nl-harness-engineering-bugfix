@@ -1,0 +1,7 @@
+{
+  "passed": false,
+  "reason": "unverified_finish",
+  "steps": 3,
+  "elapsed_seconds": 0.091,
+  "candidate_sha256": "51062de59dffa5712d59b50bf525ff6fe27a4bbe50b32c7236a96f24491bd2f0"
+}

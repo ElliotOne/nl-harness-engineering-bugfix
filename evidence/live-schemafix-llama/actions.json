@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "shipping.py",
+    "old": "free_shipping_threshold = 5000\nif cart_amount < free_shipping_threshold:\n    shipping_cost = 4999\nelse:\n    shipping_cost = cart_amount - free_shipping_threshold\nshipping_cost = round(shipping_cost)\nprint(f\"Shipping cost: {shipping_cost} pence\")",
+    "new": "free_shipping_threshold = 5000\ndef calculate_shipping(cart_amount):\n    if cart_amount < free_shipping_threshold:\n        return 4999\n    else:\n        return cart_amount - free_shipping_threshold\nshipping_cost = round(calculate_shipping(50))\nprint(f\"Shipping cost: {shipping_cost} pence\")"
+  }
+]

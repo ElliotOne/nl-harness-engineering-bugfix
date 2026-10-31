@@ -1,0 +1,14 @@
+.F...
+======================================================================
+FAIL: test_at (__main__.ShippingAcceptance.test_at)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\1.Work\0.Business-Websites\1.ElliotOne\src\Newsletter-Content\1.Repos\47.nl-harness-engineering-bugfix\verifier.py", line 9, in test_at
+    def test_at(self): self.assertEqual(shipping(5000), 0)
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+AssertionError: 499 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=1)

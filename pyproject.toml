@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "bugfix-harness"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = ["pydantic>=2.10,<3"]
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+[project.scripts]
+bugfix-harness = "bugfix_harness.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

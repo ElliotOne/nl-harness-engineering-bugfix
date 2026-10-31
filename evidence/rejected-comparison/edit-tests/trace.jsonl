@@ -1,0 +1,1 @@
+{"step": 1, "raw": "{\"op\": \"replace\", \"path\": \"verifier.py\", \"old\": \"x\", \"new\": \"y\"}", "error": "PermissionError", "detail": "path not allowed", "reason": "policy_denied"}

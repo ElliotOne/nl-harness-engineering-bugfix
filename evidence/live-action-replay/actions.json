@@ -1,0 +1,18 @@
+[
+  {
+    "op": "read",
+    "path": "shipping.py"
+  },
+  {
+    "op": "replace",
+    "path": "shipping.py",
+    "old": "return 0 if subtotal_pence > 5000 else 499",
+    "new": "return 0 if subtotal_pence >= 5000 else 499"
+  },
+  {
+    "op": "test"
+  },
+  {
+    "op": "finish"
+  }
+]

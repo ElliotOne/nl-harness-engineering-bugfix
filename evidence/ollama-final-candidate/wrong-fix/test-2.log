@@ -1,0 +1,14 @@
+..F..
+======================================================================
+FAIL: test_below (__main__.ShippingAcceptance.test_below)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\1.Work\0.Business-Websites\1.ElliotOne\src\Newsletter-Content\1.Repos\47.nl-harness-engineering-bugfix\verifier.py", line 8, in test_below
+    def test_below(self): self.assertEqual(shipping(4999), 499)
+                          ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 499
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=1)

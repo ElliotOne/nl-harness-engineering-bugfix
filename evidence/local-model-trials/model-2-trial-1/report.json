@@ -1,0 +1,7 @@
+{
+  "passed": false,
+  "reason": "step_budget",
+  "steps": 8,
+  "elapsed_seconds": 3.588,
+  "candidate_sha256": "4c9c1d8c5dd422b665407a89eb3e0a84d39aa06046b7074050d03f7a2896fbb5"
+}

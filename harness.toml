@@ -1,0 +1,5 @@
+max_steps = 8
+max_seconds = 90
+test_timeout = 5
+model_timeout = 30
+max_response_bytes = 32768

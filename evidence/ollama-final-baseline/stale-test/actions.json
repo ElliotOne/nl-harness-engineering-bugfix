@@ -1,0 +1,27 @@
+[
+  {
+    "op": "read",
+    "path": "shipping.py"
+  },
+  {
+    "op": "test"
+  },
+  {
+    "op": "replace",
+    "path": "shipping.py",
+    "old": "> 5000",
+    "new": ">= 5000"
+  },
+  {
+    "op": "test"
+  },
+  {
+    "op": "replace",
+    "path": "shipping.py",
+    "old": ">= 5000",
+    "new": "> 5000"
+  },
+  {
+    "op": "finish"
+  }
+]

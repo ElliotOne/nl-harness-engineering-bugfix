@@ -1,0 +1,8 @@
+--- a/shipping.py
++++ b/shipping.py
+@@ -1,4 +1,4 @@
+ def shipping_pence(subtotal_pence: int) -> int:
+     if subtotal_pence < 0:
+         raise ValueError("subtotal must be nonnegative")
+-    return 0 if subtotal_pence > 5000 else 499
++    return 0 if subtotal_pence >= 4999 else 499

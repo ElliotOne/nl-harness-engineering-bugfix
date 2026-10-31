@@ -1,0 +1,1 @@
+{"step": 1, "raw": "{\"op\": \"read\", \"path\": \"../prompt.txt\"}", "error": "PermissionError", "detail": "path not allowed", "reason": "policy_denied"}

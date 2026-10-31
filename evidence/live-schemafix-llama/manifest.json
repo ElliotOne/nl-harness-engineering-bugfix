@@ -1,0 +1,17 @@
+{
+  "fixture/shipping.py": "b150e8cbaa43141e8b4093f5e34c8e87322f52bebde2aef2f4a3d9f73a3f8c99",
+  "fixture/AGENTS.md": "93089aa7562662c8384e22339ae29d3ba5cb2ca02ed424d4b6f0f9410891e3c2",
+  "verifier.py": "6187d00046d82992c4f46c86f163b13c172dda853b5343d07c11ab3c05b5e215",
+  "prompt.txt": "2f277e8d0dab81698699fc4076becdf8ca711af03ee59b8025b9691892bcbd69",
+  "config": {
+    "max_steps": 8,
+    "max_seconds": 90,
+    "test_timeout": 5,
+    "model_timeout": 30,
+    "max_response_bytes": 32768
+  },
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "provider": "ollama:llama3.2:3b",
+  "core": "8bbb13cbda458077891b84ee87719775cc160b255088641c1db0b5ea11408693"
+}
